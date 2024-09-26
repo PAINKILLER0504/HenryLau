@@ -10,3 +10,9 @@
 - https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css
 
 - https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css
+- 
+## 记录vite打包的坑：
+vite 无法打包动态加载的图片资源，导致打包后无法正常加载css中的图片。
+解决方案：
+参考文档：
+
